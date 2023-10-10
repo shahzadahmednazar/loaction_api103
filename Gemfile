@@ -13,6 +13,13 @@ gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
 gem 'dotenv-rails'
 gem 'google_maps_service'
+gem 'rack-cors'
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+end
+
+
 
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
